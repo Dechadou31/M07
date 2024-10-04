@@ -29,5 +29,10 @@ if ($num1 > $num2){
 echo "Si las dos variables son valores superiores a 1,
 calcula el área del triángulo con base y altura igual a los valores de las
 variables. <br>";
-
+if ($num1 > 1 && $num2 > 1) {
+    $area = ($num1 * $num2) / 2;
+    echo "<p>El área del triángulo con base $num1 y altura $num2 es: $area</p>";
+} else {
+    echo "<p>No se puede calcular el área del triángulo porque una o ambas variables son menores o iguales a 1.</p>";
+}
 

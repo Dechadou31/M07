@@ -1,6 +1,6 @@
 <?php
 //Ejercicio1
-echo "EJERCICIO 1: <br> Crea un array asociaƟvo con los siguientes datos y claves.
+echo "EJERCICIO 1: <br> Crea un array asociado con los siguientes datos y claves.
 nombre: Sara, apellido: Marơnez, edad: 23, ciudad: Barcelona.
 Muestra los valores del array anterior uƟlizando foreach. <br>";
 $count = 1;
@@ -60,7 +60,7 @@ foreach ($personas as $clave => $valor) {
 echo"<br>";
 
 //Ejercicio5
-echo"EJERCICIO 5: <br>  Crear un nuevo array con un valor separado por coma a parƟr de la cadena de texto 
+echo"EJERCICIO 5: <br>  Crear un nuevo array con un valor separado por coma a partir de la cadena de texto 
 letters = “a,b,c,d,e,f”. Usando la función explode. Muestra su 
 información en orden descendente";
 $letters = "a,b,c,d,e,f";
@@ -79,10 +79,10 @@ foreach ($arrayLetters as $letter) {
 echo "<br>";
 
 //Ejercicio6
-echo"EJERCICIO 6: <br> Un profesor quiere registrar las notas de su clase en un array asociaƟvo. Las notas son 
+echo"EJERCICIO 6: <br> Un profesor quiere registrar las notas de su clase en un array asociado. Las notas son 
 las siguientes:
 Miguel: 5, Luís: 7, Marta: 10, Isabel: 8, Aitor: 4, Pepe: 1
-Guarda los datos en un array asociaƟvo en el orden previo y muéstralos ordenados de 
+Guarda los datos en un array asociado en el orden previo y muéstralos ordenados de 
 mayor a menor. <br>";
 $notas = array(
     "Miguel" => 5,

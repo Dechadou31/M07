@@ -14,7 +14,7 @@ echo "Numero random: $num <br>";
 echo "
 <br>
 2. Se repita la operación hasta que el total de valores sumados sea superior a 100. 
-<br>
+<br><br>
 3. Muestra la suma de los valores generados. 
 <br>";
 $pares = 0;

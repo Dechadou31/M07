@@ -15,7 +15,7 @@ echo "<br>";
 2. Muestra la progresión numérica de los números pares desde 0 hasta el valor de la
 primera con un bucle for.
 */
-echo "<br>2. Muestra la progresión numérica de los números pares desde 0 hasta el valor de la
+echo "2. Muestra la progresión numérica de los números pares desde 0 hasta el valor de la
 primera con un bucle for.<br>";
 
 $cont1 = $num1;
